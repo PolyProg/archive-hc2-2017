@@ -1,0 +1,228 @@
+body {
+    background: #D0B080 !important;
+    color: #000000 !important;
+    font-family: Helvetica !important;
+    text-align:justify;
+    margin:0 !important;
+}
+input[type="text"], input[type="email"],select,textarea{
+    width:400px !important;
+}
+.form-actions{
+    background-color:transparent !important;
+    border:0 !important;
+}
+.alert{
+    text-shadow:none!important;
+}
+
+h1, h2, h3 {
+    font-family: Helvetica !important;
+}
+code {
+    color: #4B0082;
+}
+div#main {
+    background-color:white;
+    color: #000000;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+div#foot {
+    height: 155px;
+    overflow: hidden;
+    padding-top: 15px;
+    position: relative;
+    background-color: #e0e0e0;
+}
+div#foot img {
+    margin: 0 25px;
+    width: 140px;
+}
+div#content {
+    margin: 0 auto;
+    padding: 10px 30px 0px 30px;
+    position: relative;
+}
+div#content table {
+}
+div#menu {
+    background-color: #c0c0c0;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-weight: bold;
+}
+div#menu span {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 50px;
+    position: relative;
+}
+div#menu span.selected {
+    background-color: #907040;
+}
+div#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+div#menu span.selected a {
+    color: #ffffff;
+}
+div#submenu {
+    background-color: #907040;
+    color: #ffffff;
+    font-weight: normal;
+}
+div#submenu.no_submenu {
+    display: none;
+}
+div#submenu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+div#submenu span {
+    display: inline;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0 40px;
+    position: relative;
+}
+div#submenu span.selected {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: underline;
+}
+#register_menu {
+    background-color: #070;
+}
+#register_menu > a:visited, #register_menu > a:hover, #register_menu a {
+    color: #ddd;
+}
+
+
+a {
+    font-weight: bold;
+}
+a img {
+    border: 0 none;
+}
+div.alert {
+    background: none repeat scroll 0 0 #EA605D;
+    border: 3px solid #E22926;
+    border-radius: 5px;
+    color: #000000;
+    margin: 10px 0;
+    padding: 10px;
+}
+div.advert {
+    background: none repeat scroll 0 0 #99FF99;
+    border: 3px solid #2E8B57;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}
+div.advert a {
+    color: #2E8B57;
+    text-decoration: underline;
+}
+div.advert a:hover {
+    color: #2E8B57;
+    text-decoration: none;
+}
+ul.ui-autocomplete {
+    background: none repeat scroll 0 0 #000000;
+    border: 2px solid #99D599;
+    border-radius: 5px;
+    list-style: none outside none;
+    margin: 3px;
+    padding: 3px;
+    width: 200px;
+}
+ul.ui-autocomplete li {
+    width: 195px;
+}
+ul.ui-autocomplete li a {
+    width: 195px;
+}
+.ui-state-hover {
+    background: none repeat scroll 0 0 #999999;
+    width: 195px;
+}
+select#language {
+    background: none repeat scroll 0 0 #888888;
+    border: medium none;
+}
+select#language option {
+    background: none repeat scroll 0 0 #888888;
+    border: medium none;
+    color: #000000;
+}
+select, option {
+    font-size: 13px;
+}
+ol.phpfmg_form {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ol.phpfmg_form li {
+    clear: both;
+    display: block;
+    margin-bottom: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+.form_field, .form_required {
+    font-weight: bold;
+}
+.form_required {
+    color: #FF0000;
+    margin-right: 8px;
+}
+.field_block_over {
+}
+.form_submit_block {
+    padding-top: 3px;
+}
+.text_box, .text_area, .text_select {
+    width: 300px;
+}
+.text_area {
+    height: 80px;
+}
+.form_error_title {
+    color: #FF0000;
+    font-weight: bold;
+}
+.form_error {
+    background-color: #F4F6E5;
+    border: 1px dashed #FF0000;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.form_error_highlight {
+    background-color: #F4F6E5;
+    border-bottom: 1px dashed #FF0000;
+}
+div.instruction_error {
+    color: #FF0000;
+    font-weight: bold;
+}
+hr.sectionbreak {
+    color: #CCCCCC;
+    height: 1px;
+}
+#one_entry_msg {
+    background-color: #F4F6E5;
+    border: 1px dashed #FF0000;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+div.dd {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: block;
+    float: left;
+    height: 16px;
+    margin: 0 0 2px;
+    width: 450px;
+}
